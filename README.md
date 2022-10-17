@@ -15,7 +15,6 @@
 
 [Live Demo Link](https://livedemo.com)
 
-
 ## Getting Started
 
 
@@ -23,17 +22,27 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
+- Yarn 1.22.19 or higher
+- PostgreSQL 14.5 or higher
+- Ruby 3.1.2 or higher
+- Rails 7.0.4 or higher
+- Modern web browser
 ### Setup
 
+    git clone https://github.com/indigodavid/hello_rails_react.git
+    cd hello_rails_react/
 ### Install
 
+    bundle install
+    yarn
+    rails db:create
+    rails db:migrate
+    rails db:seed
 ### Usage
 
-### Run tests
+    bin/dev
 
-### Deployment
-
-
+Then on a browser you can navigate to [localhost](http://localhost:3000).
 
 ## Authors
 
